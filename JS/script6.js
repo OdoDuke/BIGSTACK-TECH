@@ -15,3 +15,4 @@ console.log(laptop.describelaptop());
 
 document.getElementById("body").textContent=laptop.size;
 document.getElementsByClassName("div")[0].innerHTML=[laptop.specification +"<br/>"+laptop.describelaptop()];
+console.log(document);
